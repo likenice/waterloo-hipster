@@ -27,6 +27,11 @@ public abstract class AbstractGeneratedPropFile extends AbstractGeneratedFile {
         model.setManagePort(managePort);
         model.setServiceName(generatorParam.getProjectInfo().getName());
         model.setServicePort(port);
+        model.setUsername(generatorParam.getDatabaseInfo().getDbUsername());
+        model.setPassword(generatorParam.getDatabaseInfo().getDbPassword());
+        model.setDbIp(generatorParam.getDatabaseInfo().getDbIP());
+        model.setDbPort(generatorParam.getDatabaseInfo().getDbPort());
+        model.setDbName(generatorParam.getDatabaseInfo().getDbName());
     }
 
     /**

@@ -27,6 +27,29 @@ public class PropModel extends DataModel {
     private int servicePort;
 
     /**
+     * 数据库用户名 spring.datasource.password
+     */
+    private String username;
+
+
+    /**
+     * 数据库密码 spring.datasource.password
+     */
+    private String password;
+
+    /**
+     * 数据库ip spring.datasource.url
+     */
+    private String dbIp;
+
+
+    /**
+     * 数据库端口 spring.datasource.url
+     */
+    private int dbPort;
+
+
+    /**
      * 监控端口
      */
     private int managePort;
