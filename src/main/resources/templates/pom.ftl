@@ -54,14 +54,14 @@
         <dependency>
             <groupId>cn.waterlu</groupId>
             <artifactId>waterloo-starter-web</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.2-SNAPSHOT</version>
         </dependency>
 
         <!-- common-web -->
         <dependency>
             <groupId>cn.waterlu</groupId>
             <artifactId>waterloo-hipster</artifactId>
-            <version>1.0.2</version>
+            <version>1.0.3-SNAPSHOT</version>
         </dependency>
 
         <!-- test -->
